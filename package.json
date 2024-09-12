@@ -1,0 +1,42 @@
+{
+  "name": "darker-vs-2022-theme",
+  "displayName": "Darker VS 2022 Theme",
+  "description": "A dark theme inspired from Visual Studio 2022",
+  "version": "0.0.1",
+  "publisher": "ArshdeepSingh",
+  "license": "MIT",
+  "icon": "icon-128.png",
+  "galleryBanner": {
+    "color": "#1b1f23",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Broody-boy/VS2022-inspired-theme-for-vscode.git"
+  },
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "purple",
+    "vs",
+    "vscode",
+    "visual studio",
+    "visual studio 2022",
+    "2022"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Darker VS 2022 Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Darker VS 2022 Theme-color-theme.json"
+      }
+    ]
+  }
+}
